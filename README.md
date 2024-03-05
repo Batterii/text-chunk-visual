@@ -15,13 +15,13 @@ Before you begin, ensure you have [Node.js](https://nodejs.org/) installed on yo
 ### Step 1: Clone the Repository
 
 First, clone the repository to your local machine using the following command:
-`git clone https://github.com/gkamradt/ChunkViz`
+`git clone https://github.com/batterii/text-chunk-visual`
 
 ### Step 2: Install Dependencies
 
 Navigate to the cloned repository's directory and install the necessary dependencies:
 
-`cd ChunkViz`
+`cd text-chunk-visual`
 
 `npm install`
 
