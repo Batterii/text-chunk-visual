@@ -1,13 +1,8 @@
-# Chunk Viz
+# Chunk Visualization
 
 This is a tool to visualize how different text splitters chunk up text
 
 ![ChunkViz Preview](public/ChunkVizPreview.png)
-
-
-[See the demo](https://chunkviz.up.railway.app/)
-
-[Explainer Video](https://twitter.com/GregKamradt/status/1733208049513611339)
 
 ## Installation and Running Instructions
 
@@ -39,9 +34,3 @@ Navigate to the cloned repository's directory and install the necessary dependen
 
 `npm start`
 
-
-Made with ❤️ by [Greg Kamradt](https://twitter.com/GregKamradt)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details. Use of this software requires attribution to the original author and project, as detailed in the license.ChC
