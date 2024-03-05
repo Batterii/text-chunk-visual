@@ -239,11 +239,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>ChunkViz v0.1</h1>
+      <h1>Text-Chunk-Visualizer</h1>
       <p>Language Models do better when they're focused.</p>
       <p>One strategy is to pass a relevant subset (chunk) of your full data. There are many ways to chunk text.</p>
       <p>This is an tool to understand different chunking/splitting strategies.</p>
-      <p><a href='#explanation'>Explain like I'm 5...</a></p>
       <div className='textArea'>
         <textarea value={text} onChange={handleTextChange} rows={10} cols={50} />
         <div className='uploadButtonArea'>
@@ -326,7 +325,6 @@ function App() {
         <p><b>Notes:</b> *Text splitters trim the whitespace on the end of the js, python, and markdown splitters which is why the text jumps around, *Overlap is locked at &lt;50% of chunk size *Simple analytics (privacy friendly) used to understand my hosting bill.</p>
         <p>For implementations of text splitters, view LangChain
           (<a href="https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/character_text_splitter" target="_blank" rel="noopener noreferrer">py</a>, <a href="https://js.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/character_text_splitter" target="_blank" rel="noopener noreferrer">js</a>) & Llama Index (<a href="https://docs.llamaindex.ai/en/stable/api/llama_index.node_parser.SentenceSplitter.html#llama_index.node_parser.SentenceSplitter" target="_blank" rel="noopener noreferrer">py</a>, <a href="https://ts.llamaindex.ai/modules/low_level/node_parser" target="_blank" rel="noopener noreferrer">js</a>)</p>
-        <p>MIT License, <a href="https://github.com/gkamradt/ChunkViz" target="_blank" rel="noopener noreferrer">Opened Sourced</a>, PRs Welcome</p>
       </div>
     </div>
   );
