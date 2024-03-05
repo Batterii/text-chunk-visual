@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Deploy Cloud Function",
+            "type": "cloudcode.cloudfunctions",
+            "request": "launch",
+            "functionName": "text-chunk-visualizer",
+            "gen": "GEN_2",
+            "revision": "",
+            "entryPoint": "main",
+            "testInput": "index.js"
+        }
+    ]
+}
